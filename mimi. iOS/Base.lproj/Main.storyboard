@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <view key="tableHeaderView" contentMode="scaleToFill" misplaced="YES" id="8bC-Xf-vdC">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="359"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -147,7 +147,6 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="ywU-fd-IMT" firstAttribute="centerX" secondItem="11V-vd-alZ" secondAttribute="centerX" id="De4-Ho-QoR"/>
                                                         <constraint firstAttribute="bottom" secondItem="ywU-fd-IMT" secondAttribute="bottom" constant="8" id="POu-hy-d44"/>
@@ -172,7 +171,6 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="COR-rY-5WL" secondAttribute="trailing" constant="9" id="G1D-NN-UDf"/>
                                                         <constraint firstAttribute="bottom" secondItem="4VY-Vd-LvH" secondAttribute="bottom" constant="8" id="JFc-3d-Pdd"/>
@@ -197,7 +195,6 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="Mai-Li-4bX" firstAttribute="top" secondItem="MUZ-5d-gui" secondAttribute="top" constant="8" id="E9Q-1j-Xry"/>
                                                         <constraint firstAttribute="trailing" secondItem="Mai-Li-4bX" secondAttribute="trailing" constant="9.5" id="YKd-3U-hfP"/>
