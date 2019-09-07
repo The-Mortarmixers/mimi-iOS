@@ -18,6 +18,19 @@
 		08E7E09F232431260053474D /* video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 08E7E09E232431260053474D /* video.MOV */; };
 		08E7E0A22324322F0053474D /* Robert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7E0A12324322F0053474D /* Robert.storyboard */; };
 		08E7E0A4232434960053474D /* TileARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7E0A3232434960053474D /* TileARViewController.swift */; };
+		E1220FC62324361000E2E632 /* WallScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = E1220FC52324361000E2E632 /* WallScene.scn */; };
+		E1220FC82324361F00E2E632 /* mortar.png in Resources */ = {isa = PBXBuildFile; fileRef = E1220FC72324361F00E2E632 /* mortar.png */; };
+		E1220FCC2324362900E2E632 /* BucketScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = E1220FC92324362900E2E632 /* BucketScene.scn */; };
+		E1220FCD2324362900E2E632 /* MixingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FCA2324362900E2E632 /* MixingViewController.swift */; };
+		E1220FCE2324362900E2E632 /* Requirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FCB2324362900E2E632 /* Requirements.swift */; };
+		E1220FD02324363300E2E632 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FCF2324363300E2E632 /* Measurements.swift */; };
+		E1220FD22324363E00E2E632 /* RequirementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FD12324363E00E2E632 /* RequirementsTableViewController.swift */; };
+		E1220FD42324499A00E2E632 /* OptionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FD32324499A00E2E632 /* OptionSelectionViewController.swift */; };
+		E1220FD623244A9200E2E632 /* BigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FD523244A9200E2E632 /* BigButton.swift */; };
+		E1220FD8232451AC00E2E632 /* TilingTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FD7232451AC00E2E632 /* TilingTutorialViewController.swift */; };
+		E1220FDA232459EA00E2E632 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FD9232459EA00E2E632 /* DoneViewController.swift */; };
+		E1220FDC23245D5100E2E632 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FDB23245D5100E2E632 /* OptionsTableViewCell.swift */; };
+		E1220FDE23245E3000E2E632 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FDD23245E3000E2E632 /* OptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +68,19 @@
 		08E7E09E232431260053474D /* video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.MOV; sourceTree = "<group>"; };
 		08E7E0A12324322F0053474D /* Robert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Robert.storyboard; sourceTree = "<group>"; };
 		08E7E0A3232434960053474D /* TileARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileARViewController.swift; sourceTree = "<group>"; };
+		E1220FC52324361000E2E632 /* WallScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = WallScene.scn; sourceTree = "<group>"; };
+		E1220FC72324361F00E2E632 /* mortar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortar.png; sourceTree = "<group>"; };
+		E1220FC92324362900E2E632 /* BucketScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = BucketScene.scn; sourceTree = "<group>"; };
+		E1220FCA2324362900E2E632 /* MixingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixingViewController.swift; sourceTree = "<group>"; };
+		E1220FCB2324362900E2E632 /* Requirements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requirements.swift; sourceTree = "<group>"; };
+		E1220FCF2324363300E2E632 /* Measurements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
+		E1220FD12324363E00E2E632 /* RequirementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequirementsTableViewController.swift; sourceTree = "<group>"; };
+		E1220FD32324499A00E2E632 /* OptionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectionViewController.swift; sourceTree = "<group>"; };
+		E1220FD523244A9200E2E632 /* BigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButton.swift; sourceTree = "<group>"; };
+		E1220FD7232451AC00E2E632 /* TilingTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilingTutorialViewController.swift; sourceTree = "<group>"; };
+		E1220FD9232459EA00E2E632 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		E1220FDB23245D5100E2E632 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		E1220FDD23245E3000E2E632 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +131,13 @@
 		08E7E06C232428340053474D /* mimi. iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E1220FD12324363E00E2E632 /* RequirementsTableViewController.swift */,
+				E1220FCF2324363300E2E632 /* Measurements.swift */,
+				E1220FC92324362900E2E632 /* BucketScene.scn */,
+				E1220FCA2324362900E2E632 /* MixingViewController.swift */,
+				E1220FCB2324362900E2E632 /* Requirements.swift */,
+				E1220FC72324361F00E2E632 /* mortar.png */,
+				E1220FC52324361000E2E632 /* WallScene.scn */,
 				08E7E06D232428340053474D /* AppDelegate.swift */,
 				08E7E06F232428340053474D /* ViewController.swift */,
 				08E7E071232428340053474D /* Main.storyboard */,
@@ -115,6 +148,12 @@
 				08E7E0A02324312D0053474D /* Resources */,
 				08E7E0A12324322F0053474D /* Robert.storyboard */,
 				08E7E0A3232434960053474D /* TileARViewController.swift */,
+				E1220FD32324499A00E2E632 /* OptionSelectionViewController.swift */,
+				E1220FD523244A9200E2E632 /* BigButton.swift */,
+				E1220FD7232451AC00E2E632 /* TilingTutorialViewController.swift */,
+				E1220FD9232459EA00E2E632 /* DoneViewController.swift */,
+				E1220FDB23245D5100E2E632 /* OptionsTableViewCell.swift */,
+				E1220FDD23245E3000E2E632 /* OptionView.swift */,
 			);
 			path = "mimi. iOS";
 			sourceTree = "<group>";
@@ -250,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E7E09F232431260053474D /* video.MOV in Resources */,
+				E1220FC82324361F00E2E632 /* mortar.png in Resources */,
+				E1220FC62324361000E2E632 /* WallScene.scn in Resources */,
 				08E7E07B232428360053474D /* LaunchScreen.storyboard in Resources */,
 				08E7E078232428360053474D /* Assets.xcassets in Resources */,
+				E1220FCC2324362900E2E632 /* BucketScene.scn in Resources */,
 				08E7E073232428340053474D /* Main.storyboard in Resources */,
 				08E7E0A22324322F0053474D /* Robert.storyboard in Resources */,
 			);
@@ -278,10 +320,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1220FDC23245D5100E2E632 /* OptionsTableViewCell.swift in Sources */,
 				08E7E070232428340053474D /* ViewController.swift in Sources */,
+				E1220FD02324363300E2E632 /* Measurements.swift in Sources */,
 				08E7E0A4232434960053474D /* TileARViewController.swift in Sources */,
+				E1220FD22324363E00E2E632 /* RequirementsTableViewController.swift in Sources */,
+				E1220FDA232459EA00E2E632 /* DoneViewController.swift in Sources */,
 				08E7E076232428340053474D /* mimi__iOS.xcdatamodeld in Sources */,
+				E1220FDE23245E3000E2E632 /* OptionView.swift in Sources */,
+				E1220FD42324499A00E2E632 /* OptionSelectionViewController.swift in Sources */,
+				E1220FCE2324362900E2E632 /* Requirements.swift in Sources */,
 				08E7E06E232428340053474D /* AppDelegate.swift in Sources */,
+				E1220FD623244A9200E2E632 /* BigButton.swift in Sources */,
+				E1220FCD2324362900E2E632 /* MixingViewController.swift in Sources */,
+				E1220FD8232451AC00E2E632 /* TilingTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EVQT4YM28J;
+				DEVELOPMENT_TEAM = F68CV5R3U6;
 				INFOPLIST_FILE = "mimi. iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EVQT4YM28J;
+				DEVELOPMENT_TEAM = F68CV5R3U6;
 				INFOPLIST_FILE = "mimi. iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
