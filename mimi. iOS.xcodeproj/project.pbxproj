@@ -15,6 +15,9 @@
 		08E7E07B232428360053474D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7E079232428360053474D /* LaunchScreen.storyboard */; };
 		08E7E086232428360053474D /* mimi__iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7E085232428360053474D /* mimi__iOSTests.swift */; };
 		08E7E091232428360053474D /* mimi__iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7E090232428360053474D /* mimi__iOSUITests.swift */; };
+		08E7E09F232431260053474D /* video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 08E7E09E232431260053474D /* video.MOV */; };
+		08E7E0A22324322F0053474D /* Robert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7E0A12324322F0053474D /* Robert.storyboard */; };
+		08E7E0A4232434960053474D /* TileARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7E0A3232434960053474D /* TileARViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		08E7E08C232428360053474D /* mimi. iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mimi. iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E7E090232428360053474D /* mimi__iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mimi__iOSUITests.swift; sourceTree = "<group>"; };
 		08E7E092232428360053474D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E7E09E232431260053474D /* video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.MOV; sourceTree = "<group>"; };
+		08E7E0A12324322F0053474D /* Robert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Robert.storyboard; sourceTree = "<group>"; };
+		08E7E0A3232434960053474D /* TileARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileARViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				08E7E079232428360053474D /* LaunchScreen.storyboard */,
 				08E7E07C232428360053474D /* Info.plist */,
 				08E7E074232428340053474D /* mimi__iOS.xcdatamodeld */,
+				08E7E0A02324312D0053474D /* Resources */,
+				08E7E0A12324322F0053474D /* Robert.storyboard */,
+				08E7E0A3232434960053474D /* TileARViewController.swift */,
 			);
 			path = "mimi. iOS";
 			sourceTree = "<group>";
@@ -126,6 +135,14 @@
 				08E7E092232428360053474D /* Info.plist */,
 			);
 			path = "mimi. iOSUITests";
+			sourceTree = "<group>";
+		};
+		08E7E0A02324312D0053474D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08E7E09E232431260053474D /* video.MOV */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E7E09F232431260053474D /* video.MOV in Resources */,
 				08E7E07B232428360053474D /* LaunchScreen.storyboard in Resources */,
 				08E7E078232428360053474D /* Assets.xcassets in Resources */,
 				08E7E073232428340053474D /* Main.storyboard in Resources */,
+				08E7E0A22324322F0053474D /* Robert.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E7E070232428340053474D /* ViewController.swift in Sources */,
+				08E7E0A4232434960053474D /* TileARViewController.swift in Sources */,
 				08E7E076232428340053474D /* mimi__iOS.xcdatamodeld in Sources */,
 				08E7E06E232428340053474D /* AppDelegate.swift in Sources */,
 			);
