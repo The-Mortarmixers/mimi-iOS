@@ -127,7 +127,7 @@ class TileARViewController: UIViewController, ARSCNViewDelegate {
     @IBAction func setTileWallButtonPushed(_ sender: Any) {
         let imageMaterial = SCNMaterial()
         imageMaterial.diffuse.contents = UIImage(named: "tile1.png")
-        imageMaterial.diffuse.contentsTransform = SCNMatrix4MakeScale(20, 20, 0)
+        imageMaterial.diffuse.contentsTransform = SCNMatrix4MakeScale(5, 5, 0)
         
         planeNode?.geometry?.firstMaterial = imageMaterial
         
