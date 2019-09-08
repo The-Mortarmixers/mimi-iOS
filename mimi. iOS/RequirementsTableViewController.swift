@@ -27,6 +27,7 @@ class RequirementsTableViewController: UITableViewController {
     @IBOutlet weak var cementContentView: UIView!
     @IBOutlet weak var polymerContentView: UIView!
     @IBOutlet weak var waterContentView: UIView!
+    @IBOutlet weak var buyButton: BigButton!
     
 
     var measurements: Measurements?
@@ -55,10 +56,19 @@ class RequirementsTableViewController: UITableViewController {
         return formatter
     }()
 
+    private let numberFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        return formatter
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addPanGestureRecognizer()
         self.setupLabels()
+
+        let bsPrice = 0.864 * self.volume.converted(to: .liters).value
+        self.buyButton.setTitle("Buy from Wacker (\(numberFormatter.string(from: NSNumber(value: bsPrice)) ?? "nil"))", for: .normal)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -85,6 +95,8 @@ class RequirementsTableViewController: UITableViewController {
 
         if recognizer.state == .cancelled || recognizer.state == .ended || recognizer.state == .failed {
             self.currentDepth = box.width / RequirementsTableViewController.depthCoefficient
+            let bsPrice = 0.564 * self.volume.converted(to: .liters).value
+            self.buyButton.setTitle("Buy from Wacker (\(numberFormatter.string(from: NSNumber(value: bsPrice)) ?? "nil"))", for: .normal)
             return
         }
 

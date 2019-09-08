@@ -23,16 +23,47 @@ class OptionSelectionViewController: UIViewController, UITableViewDelegate, UITa
     
     private var options: [[Option]] = [
         [
-            Option(name: "Test Option", color: .lightGray, selected: false),
-            Option(name: "Test 2", color: .blue, selected: false),
-            Option(name: "Test 3", color: .blue, selected: false),
-            Option(name: "Test 4", color: .orange, selected: false),
-            Option(name: "Test 5", color: .red, selected: false),
+            Option(name: "Inside",
+                   color: UIColor(red: 77/255.0, green: 80/255.0, blue: 87/255.0, alpha: 1.0),
+                   selected: true),
+            Option(name: "Outside",
+                   color: UIColor(red: 166/255.0, green: 176/255.0, blue: 126/255.0, alpha: 1.0),
+                   selected: false),
+            Option(name: "Don't Know",
+                   color: UIColor(red: 209/255.0, green: 209/255.0, blue: 209/255.0, alpha: 1.0),
+                   selected: false)
+        ],
+        [
+            Option(name: "Yes",
+                   color: UIColor(red: 104/255.0, green: 164/255.0, blue: 87/255.0, alpha: 1.0),
+                   selected: false),
+            Option(name: "No",
+                   color: UIColor(red: 201/255.0, green: 64/255.0, blue: 46/255.0, alpha: 1.0),
+                   selected: true),
+            Option(name: "Don't Know",
+                   color: UIColor(red: 209/255.0, green: 209/255.0, blue: 209/255.0, alpha: 1.0),
+                   selected: false)
+        ],
+        [
+            Option(name: "Wood",
+                   color: UIColor(red: 163/255.0, green: 83/255.0, blue: 13/255.0, alpha: 1.0),
+                   selected: false),
+            Option(name: "Brick",
+                   color: UIColor(red: 204/255.0, green: 119/255.0, blue: 136/255.0, alpha: 1.0),
+                   selected: false),
+            Option(name: "Stone",
+                   color: UIColor(red: 135/255.0, green: 130/255.0, blue: 131/255.0, alpha: 1.0),
+                   selected: true),
+            Option(name: "Wallpaper",
+                   color: UIColor(red: 116/255.0, green: 164/255.0, blue: 168/255.0, alpha: 1.0),
+                   selected: false)
         ]
     ]
 
     private var titles = [
-        "Locality"
+        "Locality",
+        "Will it be exposed to a lot of water?",
+        "Surface Type"
     ]
 
     override func viewDidLoad() {
@@ -41,6 +72,7 @@ class OptionSelectionViewController: UIViewController, UITableViewDelegate, UITa
         self.tableView.dataSource = self
         self.navigationController?.navigationBar.prefersLargeTitles = true
         toggleEnabledForContinueButton()
+        self.tableView.contentInset.bottom = 250
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

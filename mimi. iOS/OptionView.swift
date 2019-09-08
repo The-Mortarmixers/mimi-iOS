@@ -24,5 +24,7 @@ class OptionView: UIView {
         self.layer.shadowRadius = 5
         self.layer.shadowOpacity = item.selected ? 1 : 0.2
         self.layer.shadowColor = UIColor.lightGray.cgColor
+        self.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
+        self.layer.cornerRadius = 10
     }
 }
