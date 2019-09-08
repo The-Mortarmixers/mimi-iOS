@@ -86,7 +86,7 @@ class TileARViewController: UIViewController, ARSCNViewDelegate {
         let plane = SCNPlane(width: width, height: height)
         
         // 3
-        plane.materials.first?.diffuse.contents = UIColor.blue
+        plane.materials.first?.diffuse.contents = UIColor(hue: 208/255, saturation: 100/255, brightness: 98/255, alpha: 0.5)
         
         // 4
         let planeNode = SCNNode(geometry: plane)
