@@ -68,7 +68,7 @@ class RequirementsTableViewController: UITableViewController {
         self.setupLabels()
 
         let bsPrice = 0.864 * self.volume.converted(to: .liters).value
-        self.buyButton.setTitle("Buy from Wacker (\(numberFormatter.string(from: NSNumber(value: bsPrice)) ?? "nil"))", for: .normal)
+        self.buyButton.setTitle("Buy Kit from Wacker (\(numberFormatter.string(from: NSNumber(value: bsPrice)) ?? "nil"))", for: .normal)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -96,7 +96,7 @@ class RequirementsTableViewController: UITableViewController {
         if recognizer.state == .cancelled || recognizer.state == .ended || recognizer.state == .failed {
             self.currentDepth = box.width / RequirementsTableViewController.depthCoefficient
             let bsPrice = 0.564 * self.volume.converted(to: .liters).value
-            self.buyButton.setTitle("Buy from Wacker (\(numberFormatter.string(from: NSNumber(value: bsPrice)) ?? "nil"))", for: .normal)
+            self.buyButton.setTitle("Buy Kit from Wacker (\(numberFormatter.string(from: NSNumber(value: bsPrice)) ?? "nil"))", for: .normal)
             return
         }
 
