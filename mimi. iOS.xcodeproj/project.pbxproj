@@ -32,7 +32,7 @@
 		E1220FDC23245D5100E2E632 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FDB23245D5100E2E632 /* OptionsTableViewCell.swift */; };
 		E1220FDE23245E3000E2E632 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FDD23245E3000E2E632 /* OptionView.swift */; };
 		E1220FE02324F46400E2E632 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1220FDF2324F46400E2E632 /* SelectionTableViewController.swift */; };
-		E1220FE22324F62500E2E632 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1220FE12324F62500E2E632 /* video.mp4 */; };
+		E1220FE42324FAC800E2E632 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1220FE32324FAC800E2E632 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +84,7 @@
 		E1220FDB23245D5100E2E632 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
 		E1220FDD23245E3000E2E632 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
 		E1220FDF2324F46400E2E632 /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
-		E1220FE12324F62500E2E632 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		E1220FE32324FAC800E2E632 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +184,7 @@
 		08E7E0A02324312D0053474D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1220FE12324F62500E2E632 /* video.mp4 */,
+				E1220FE32324FAC800E2E632 /* video.mp4 */,
 				083ACE0F232447700029BF4E /* Tile1.scn */,
 			);
 			path = Resources;
@@ -295,11 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				083ACE10232447700029BF4E /* Tile1.scn in Resources */,
-				E1220FE22324F62500E2E632 /* video.mp4 in Resources */,
 				E1220FC82324361F00E2E632 /* mortar.png in Resources */,
 				E1220FC62324361000E2E632 /* WallScene.scn in Resources */,
 				08E7E07B232428360053474D /* LaunchScreen.storyboard in Resources */,
 				08E7E078232428360053474D /* Assets.xcassets in Resources */,
+				E1220FE42324FAC800E2E632 /* video.mp4 in Resources */,
 				E1220FCC2324362900E2E632 /* BucketScene.scn in Resources */,
 				08E7E073232428340053474D /* Main.storyboard in Resources */,
 				08E7E0A22324322F0053474D /* Robert.storyboard in Resources */,
