@@ -13,6 +13,9 @@ import SceneKit
 class TileARViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet weak var sceneView: ARSCNView!
+    
+    private var planeAnchor: ARAnchor?
+    private var planeNode: SCNNode?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,8 +72,12 @@ class TileARViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard self.planeAnchor == nil else { return }
+        
         // 1
         guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+        
+        self.planeAnchor = planeAnchor
         
         // 2
         let width = CGFloat(planeAnchor.extent.x)
@@ -89,6 +96,8 @@ class TileARViewController: UIViewController, ARSCNViewDelegate {
         let z = CGFloat(planeAnchor.center.z)
         planeNode.position = SCNVector3(x,y,z)
         planeNode.eulerAngles.x = -.pi / 2
+        
+        self.planeNode = planeNode
         
         // 6
         node.addChildNode(planeNode)
@@ -112,5 +121,23 @@ class TileARViewController: UIViewController, ARSCNViewDelegate {
         let y = CGFloat(planeAnchor.center.y)
         let z = CGFloat(planeAnchor.center.z)
         planeNode.position = SCNVector3(x, y, z)
+    }
+    
+    @IBAction func setTileWallButtonPushed(_ sender: Any) {
+        let imageMaterial = SCNMaterial()
+        imageMaterial.diffuse.contents = UIImage(named: "tile1.png")
+        imageMaterial.diffuse.contentsTransform = SCNMatrix4MakeScale(50, 50, 0)
+        
+        planeNode?.geometry?.firstMaterial = imageMaterial
+        
+        planeNode?.geometry?.firstMaterial?.diffuse.wrapS = SCNWrapMode.repeat
+        planeNode?.geometry?.firstMaterial?.diffuse.wrapT = SCNWrapMode.repeat
+        
+    }
+    
+    @IBAction func clearButtonPushed(_ sender: Any) {
+        self.planeNode?.removeFromParentNode()
+        self.planeNode = nil
+        self.planeAnchor = nil
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083ACE10232447700029BF4E /* Tile1.scn in Resources */ = {isa = PBXBuildFile; fileRef = 083ACE0F232447700029BF4E /* Tile1.scn */; };
 		08E7E06E232428340053474D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7E06D232428340053474D /* AppDelegate.swift */; };
 		08E7E070232428340053474D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7E06F232428340053474D /* ViewController.swift */; };
 		08E7E073232428340053474D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7E071232428340053474D /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		083ACE0F232447700029BF4E /* Tile1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Tile1.scn; sourceTree = "<group>"; };
 		08E7E06A232428340053474D /* mimi. iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mimi. iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E7E06D232428340053474D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08E7E06F232428340053474D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				08E7E09E232431260053474D /* video.MOV */,
+				083ACE0F232447700029BF4E /* Tile1.scn */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083ACE10232447700029BF4E /* Tile1.scn in Resources */,
 				08E7E09F232431260053474D /* video.MOV in Resources */,
 				08E7E07B232428360053474D /* LaunchScreen.storyboard in Resources */,
 				08E7E078232428360053474D /* Assets.xcassets in Resources */,
