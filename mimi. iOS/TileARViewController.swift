@@ -12,6 +12,7 @@ import SceneKit
 
 class TileARViewController: UIViewController, ARSCNViewDelegate {
     
+    @IBOutlet weak var continueButton: BigButton!
     @IBOutlet weak var sceneView: ARSCNView!
     
     private var planeAnchor: ARAnchor?
@@ -126,12 +127,14 @@ class TileARViewController: UIViewController, ARSCNViewDelegate {
     @IBAction func setTileWallButtonPushed(_ sender: Any) {
         let imageMaterial = SCNMaterial()
         imageMaterial.diffuse.contents = UIImage(named: "tile1.png")
-        imageMaterial.diffuse.contentsTransform = SCNMatrix4MakeScale(50, 50, 0)
+        imageMaterial.diffuse.contentsTransform = SCNMatrix4MakeScale(20, 20, 0)
         
         planeNode?.geometry?.firstMaterial = imageMaterial
         
         planeNode?.geometry?.firstMaterial?.diffuse.wrapS = SCNWrapMode.repeat
         planeNode?.geometry?.firstMaterial?.diffuse.wrapT = SCNWrapMode.repeat
+
+        continueButton.setTitle("Proceed with 48 Tiles", for: .normal)
         
     }
     

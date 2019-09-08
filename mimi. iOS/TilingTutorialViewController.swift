@@ -26,7 +26,7 @@ class TilingTutorialViewController: UIViewController {
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(startVideo))
         playerView.addGestureRecognizer(recognizer)
 
-        guard let url = Bundle.main.url(forResource: "video", withExtension: "MOV")
+        guard let url = Bundle.main.url(forResource: "video", withExtension: "mp4")
             else { return }
 
         self.player = AVPlayer(url: url)

@@ -660,14 +660,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                         <subviews>
                                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2y9-QE-D6W">
-                                                <rect key="frame" x="0.0" y="30" width="414" height="253"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="253"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="253" id="sSF-ir-Eg8"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="▶︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irq-QI-1Xk">
-                                                <rect key="frame" x="175.5" y="113.5" width="63.5" height="86"/>
+                                                <rect key="frame" x="175.5" y="83.5" width="63.5" height="86"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <color key="textColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -676,14 +676,14 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="irq-QI-1Xk" firstAttribute="centerX" secondItem="2y9-QE-D6W" secondAttribute="centerX" id="2mV-A2-gtc"/>
-                                            <constraint firstItem="2y9-QE-D6W" firstAttribute="top" secondItem="FWQ-Ub-2im" secondAttribute="top" constant="30" id="K1x-96-1KQ"/>
+                                            <constraint firstItem="2y9-QE-D6W" firstAttribute="top" secondItem="FWQ-Ub-2im" secondAttribute="top" id="K1x-96-1KQ"/>
                                             <constraint firstAttribute="trailing" secondItem="2y9-QE-D6W" secondAttribute="trailing" id="b6E-7I-Or6"/>
                                             <constraint firstItem="2y9-QE-D6W" firstAttribute="leading" secondItem="FWQ-Ub-2im" secondAttribute="leading" id="f4E-ho-fQe"/>
                                             <constraint firstItem="irq-QI-1Xk" firstAttribute="centerY" secondItem="2y9-QE-D6W" secondAttribute="centerY" id="lvG-Pr-dA5"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmY-z9-Y5O">
-                                        <rect key="frame" x="16" y="313" width="382" height="426.5"/>
+                                        <rect key="frame" x="16" y="283" width="382" height="426.5"/>
                                         <string key="text">The easiest way to start laying your tiles is to start at the bottom and work upwards. Place a tile against the wall, and add a tile spacer to the side of it. This will allow you to leave room for the adhesive that will secure your tiles to the wall.
 
 You shouldn’t need to cut the tile unless it is an end tile that completes the row. It’s easy to cut a tile down to the right size using a tile cutter. Simply mark where you need to cut the tile in pencil. Draw on the back of the tile, not the front, to avoid discolouring it. Carefully align the pencil mark with the tile cutter and you should get great results.
